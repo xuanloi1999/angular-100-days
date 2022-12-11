@@ -2,3 +2,11 @@
 <p>
   Start editing to see some magic happen :)
 </p>
+
+<p>{{ user.name}}</p>
+<p>{{ user.age}}</p>
+
+<!-- Data-binding -->
+<input [type] = "inputType" [value]='user.name' />
+
+<button type="button" (click)="handler()"> Click me!</button>
